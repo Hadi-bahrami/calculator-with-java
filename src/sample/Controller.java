@@ -27,7 +27,6 @@ public class Controller {
     public void operatorsClicked(MouseEvent event){
         inputNumbers = ((Button)event.getSource()).getText();
         field_result.setText(field_result.getText()+inputNumbers);
-        System.out.println(((Button) event.getSource()).getAccessibleText());
 
     }
 
@@ -37,7 +36,6 @@ public class Controller {
         //if-statement to counter the  Dangling meta character '+' near index 0
         if (inputNumbers.contains("+")){
             inputNumbers=  inputNumbers.replace("+", "plus");
-            System.out.println("field_result.getText()::"+inputNumbers);
         }
 
         String[] operatorsArr = {"-", "plus", "X", "/"};
