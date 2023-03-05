@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="550.0" minWidth="370.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Button fx:id="button_One" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#numbersClicked" prefHeight="62.0" prefWidth="72.0" text="1">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_Two" contentDisplay="CENTER" layoutX="103.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#numbersClicked" prefHeight="62.0" prefWidth="72.0" text="2">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_Three" contentDisplay="CENTER" layoutX="195.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#numbersClicked" prefHeight="62.0" prefWidth="72.0" text="3">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_Four" contentDisplay="CENTER" layoutX="14.0" layoutY="289.0" mnemonicParsing="false" onMouseClicked="#numbersClicked" prefHeight="62.0" prefWidth="72.0" text="4">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_Five" contentDisplay="CENTER" layoutX="103.0" layoutY="289.0" mnemonicParsing="false" onMouseClicked="#numbersClicked" prefHeight="62.0" prefWidth="72.0" text="5">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_Six" contentDisplay="CENTER" layoutX="195.0" layoutY="289.0" mnemonicParsing="false" onMouseClicked="#numbersClicked" prefHeight="62.0" prefWidth="72.0" text="6">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_Seven" contentDisplay="CENTER" layoutX="14.0" layoutY="380.0" mnemonicParsing="false" onMouseClicked="#numbersClicked" prefHeight="62.0" prefWidth="72.0" text="7">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_Eight" contentDisplay="CENTER" layoutX="103.0" layoutY="380.0" mnemonicParsing="false" onMouseClicked="#numbersClicked" prefHeight="62.0" prefWidth="72.0" text="8">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_Nine" contentDisplay="CENTER" layoutX="195.0" layoutY="380.0" mnemonicParsing="false" onMouseClicked="#numbersClicked" prefHeight="62.0" prefWidth="72.0" text="9">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_Clear" contentDisplay="CENTER" layoutX="14.0" layoutY="467.0" mnemonicParsing="false" onMouseClicked="#clearClicked" prefHeight="62.0" prefWidth="72.0" text="C">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_Zero" contentDisplay="CENTER" layoutX="103.0" layoutY="467.0" mnemonicParsing="false" onMouseClicked="#numbersClicked" prefHeight="62.0" prefWidth="72.0" text="0">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_Equal" contentDisplay="CENTER" layoutX="195.0" layoutY="467.0" mnemonicParsing="false" onMouseClicked="#equalClicked" prefHeight="62.0" prefWidth="72.0" text="=">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_Split" accessibleText="split" contentDisplay="CENTER" layoutX="285.0" layoutY="467.0" mnemonicParsing="false" onMouseClicked="#operatorsClicked" prefHeight="62.0" prefWidth="72.0" text="/">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_Times" accessibleText="times" contentDisplay="CENTER" layoutX="285.0" layoutY="380.0" mnemonicParsing="false" onMouseClicked="#operatorsClicked" prefHeight="62.0" prefWidth="72.0" text="X">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_Minus" accessibleText="minus" contentDisplay="CENTER" layoutX="285.0" layoutY="289.0" mnemonicParsing="false" onMouseClicked="#operatorsClicked" prefHeight="62.0" prefWidth="72.0" text="-">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button fx:id="button_Plus" accessibleText="plus" contentDisplay="CENTER" layoutX="285.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#operatorsClicked" prefHeight="62.0" prefWidth="72.0" text="+" textAlignment="CENTER">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+      <TextField fx:id="field_result" editable="false" layoutX="13.0" layoutY="28.0" prefHeight="99.0" prefWidth="347.0">
+         <font>
+            <Font name="Calibri Bold" size="35.0" />
+         </font></TextField>
+
+    </children>
+</AnchorPane>
